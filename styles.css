@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#07c8f9, #EFB0C9);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 80px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2gzM3B4bm1rdXRocXAwNTg5OGRpM2l5cnQ3ZnY4YmwxOW5rYTNiZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ktU8kAKsyIauRSOoZs/giphy.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzBwazc3YW13NnBiOGNpaGt0bTVjcjM4ZGtlcnlkeWhjbnM1dHhnYiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/OZo3vAeUlgUIE/giphy.gif");
+}
+
+#gift-img-feel:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2F1bmFmYjRvZGNtdGx6bWV2bGxkMzV0OGxndTZhdXd5MmJjbDRqbCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5GoVLqeAOo6PK/giphy.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmRteGxsajM5dHZiaWQ4dno0bWRueWk0cnl5bDhmeHh0NTRqMmd3YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kiBcwEXegBTACmVOnE/giphy.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTBlMGJvcjE5dWtyd3hmNWFqY3A1NWZ6d2JpanM2ODViOXVhcG4xZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bIEzoZX0qJaG6s6frc/giphy.gif");
+}
+#footer{
+    width:400px;
+    margin: 20px auto 10px;
+    font-family: "Chakra Petch", sans-serif;
+}
+a{
+    color: #ffffff;
+}
